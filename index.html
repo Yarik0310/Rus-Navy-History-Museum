@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главный блок Музей ВМФ</title>
+    <!-- Подключаем шрифт -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/design.css">
+    <!-- FontAwesome для иконок (глаз, телефон) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="top">
+
+    <div class="page-wrapper">
+        <!-- HEADER -->
+        <header class="main-header">
+            <div class="main-header__container">
+                <nav class="main-header__nav">
+                    <ul class="main-header__menu" id="main-menu">
+                        <li class="main-header__menu-item"><a href="#top" class="main-header__link">Главная</a></li>
+                        <li class="main-header__menu-item"><a href="#about" class="main-header__link">О музее</a></li>
+                        <li class="main-header__menu-item"><a href="#exhibits" class="main-header__link">Экспонаты</a></li>
+                        <li class="main-header__menu-item"><a href="#gallery" class="main-header__link">Галерея</a></li>
+                        <li class="main-header__menu-item"><a href="#contacts" class="main-header__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="main-header__contacts">
+                    <a href="tel:+74994930006" class="main-header__phone">+7(499) 493-00-06</a>
+                    <div class="main-header__eye-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+                <button class="main-header__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <!-- HERO BLOCK - Основной баннер -->
+        <section class="hero-block">
+            <!-- паттерн -->
+            <div class="hero-block__background-pattern"><img src="For_site/Pattern.png"></div>
+            <div class="hero-block__background-pattern1"><img src="For_site/Pattern.png"></div>
+            <div class="hero-block__container">
+                <div class="hero-block__image-wrapper">
+                    <img src="For_site/Rectangle 44 (1).png" alt="Музей истории ВМФ" class="hero-block__image">
+                </div>
+
+                <!-- Текстовый блок наложенный поверх -->
+                <div class="hero-block__text-box">
+                    <h1 class="hero-block__title">
+                        МУЗЕЙ ИСТОРИИ ВМФ<br>
+                        ПАРК «СЕВЕРНОЕ ТУШИНО»
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+<section>
+    <div class="gallery">
+        <div class="gallery__container">
+            <!-- КАРТИНКА 1 -->
+            <div class="gallery-item">
+                <img class="gallery-item__image" src="For_site/image 16.png">
+            </div>
+            <!-- КАРТИНКА 2 -->
+            <div class="gallery-item">
+                <img class="gallery-item__image" src="For_site/image 14.png">
+            </div>
+            <!-- КАРТИНКА 3 -->
+            <div class="gallery-item">
+                <img class="gallery-item__image" src="For_site/image 12.png">
+            </div>
+            <!-- КАРТИНКА 4 -->
+            <div class="gallery-item">
+                <img class="gallery-item__image" src="For_site/image 13.png">
+            </div>
+            <!-- КАРТИНКА 5 -->
+            <div class="gallery-item">
+                <img class="gallery-item__image" src="For_site/image 15.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="about-section" id="about">
+    <div class="about-section__container">
+        
+        <!-- Верхняя часть: Заголовок и описание -->
+        <div class="about-section__header">
+            <h2 class="about-section__title">О МУЗЕЕ</h2>
+            <p class="about-section__description">
+                Уникальный музей с редкими экспонатами в парке "Северное Тушино". Здесь можно увидеть редкие экспонаты, например, боевой морской транспортно-десантный экраноплан «Орленок» и десантно-штурмовой катер на воздушной подушке «СКАТ».
+            </p>
+        </div>
+
+        <!-- Декоративный блок слева -->
+        <div class="about-section__pattern-left">
+            <div class="about-section__zigzag"><img src="For_site/Pattern.png"></div>
+        </div>
+
+        <!-- Декоративный блок справа -->
+        <div class="about-section__shape-right">
+            <div class="about-section__triangle"><img src="For_site/Group 38.png"></div>
+        </div>
+
+        <!-- РАСПИСАНИЕ -->
+        <div class="about-section__schedule-wrapper">
+            <h3 class="about-section__subtitle">| РАСПИСАНИЕ МУЗЕЯ |</h3>
+            
+            <div class="about-section__schedule-grid">
+                <!-- Левая колонка: Время работы -->
+                <div class="about-section__time-col">
+                    <p class="about-section__time-label">Основное время работы</p>
+                    <p class="about-section__time-value">11:00 - 19:00</p>
+                </div>
+
+                <!-- Правая колонка: Таблица дней -->
+                <div class="about-section__table-col">
+                    <div class="about-section__table-header">
+                        <span>Дни работы</span>
+                    </div>
+                    
+                    <div class="about-section__table-row">
+                        <span class="about-section__day-name">Понедельник</span>
+                        <span class="about-section__day-status">Выходной</span>
+                        <!-- Цветные ленточки - декор -->
+                        <span><img class="about-section__bar" src="For_site/Rectangle 55.png"></span>
+                    </div>
+
+                    <div class="about-section__table-row">
+                        <span class="about-section__day-name">Вторник</span>
+                        <span class="about-section__day-time">11:00 - 19:00</span>
+                        
+                        <span><img class="about-section__bar" src="For_site/Rectangle 54.png"></span>
+                    </div>
+
+                    <div class="about-section__table-row">
+                        <span class="about-section__day-name">Среда</span>
+                        <span class="about-section__day-time">11:00 - 19:00</span>
+                        
+                        <span ><img class="about-section__bar" src="For_site/Rectangle 55.png"></span>
+                    </div>
+
+                    <div class="about-section__table-row">
+                        <span class="about-section__day-name">Четверг</span>
+                        <span class="about-section__day-time">11:00 - 19:00</span>
+                        <span ><img class="about-section__bar" src="For_site/Rectangle 54.png"></span>
+                    </div>
+
+                    <div class="about-section__table-row">
+                        <span class="about-section__day-name">Пятница</span>
+                        <span class="about-section__day-time">11:00 - 19:00</span>
+                        
+                        <span><img class="about-section__bar" src="For_site/Rectangle 55.png"></span>
+                    </div>
+
+                    <div class="about-section__table-row">
+                        <span class="about-section__day-name">Суббота</span>
+                        <span class="about-section__day-time">11:00 - 19:00</span>
+                        
+                        <span ><img class="about-section__bar" src="For_site/Rectangle 54.png"></span>
+                    </div>
+
+                    <div class="about-section__table-row">
+                        <span class="about-section__day-name">Воскресенье</span>
+                        <span class="about-section__day-time">11:00 - 19:00</span>
+                        
+                        <span><img class="about-section__bar" src="For_site/Rectangle 55.png"></span>
+                    </div>
+
+                    <div class="about-section__table-footer">
+                        Последний четверг месяца — <span class="about-section__san-day">санитарный день</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- БИЛЕТЫ -->
+        <div class="about-section__tickets-wrapper">
+            <h3 class="about-section__subtitle">| БИЛЕТЫ |</h3>
+            
+            <div class="about-section__tickets-table">
+                <!-- Заголовки столбцов -->
+                <div class="about-section__tickets-row about-section__tickets-row--header">
+                    <div class="about-section__tickets-cell about-section__tickets-cell--header">
+                        Индивидуальный билет без экскурсии
+                    </div>
+                    <div class="about-section__tickets-cell">
+                        Подводная лодка Б-396
+                    </div>
+                    <div class="about-section__tickets-cell">
+                        Выставка «Величие и глубина»
+                    </div>
+                    <div class="about-section__tickets-cell">
+                        Комплексный билет (2в1)
+                    </div>
+                </div>
+
+                <!-- Строка: Взрослый -->
+                <div class="about-section__tickets-row">
+                    <div class="about-section__tickets-cell">Взрослый билет</div>
+                    <div class="about-section__tickets-cell">460 ₽</div>
+                    <div class="about-section__tickets-cell">460 ₽</div>
+                    <div class="about-section__tickets-cell">690 ₽</div>
+                </div>
+
+                <!-- Строка: Льготный -->
+                <div class="about-section__tickets-row">
+                    <div class="about-section__tickets-cell">Льготный билет</div>
+                    <div class="about-section__tickets-cell">230 ₽</div>
+                    <div class="about-section__tickets-cell">230 ₽</div>
+                    <div class="about-section__tickets-cell">340 ₽</div>
+                </div>
+
+                <!-- Строка: Детский -->
+                <div class="about-section__tickets-row">
+                    <div class="about-section__tickets-cell">Детский билет до 6 лет</div>
+                    <div class="about-section__tickets-cell">0 ₽</div>
+                    <div class="about-section__tickets-cell">0 ₽</div>
+                    <div class="about-section__tickets-cell">0 ₽</div>
+                </div>
+
+                <!-- Строка: Социальный -->
+                <div class="about-section__tickets-row">
+                    <div class="about-section__tickets-cell about-section__tickets-cell--small-text">
+                        Билет для Участника проекта Мэра Москвы «МУЗЕИ-ДЕТЯМ» при успешной валидации социальной карты школьника/карты "Москвёнок"
+                    </div>
+                    <div class="about-section__tickets-cell">0 ₽</div>
+                    <div class="about-section__tickets-cell">0 ₽</div>
+                    <div class="about-section__tickets-cell">0 ₽</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="exhibits-section" id="exhibits">
+    <div class="exhibits-section__container">
+        
+        <!-- Декоративный элемент слева -->
+        <div class="exhibits-section__shape-left">
+            <img src="For_site/Group 39.png">
+        </div>
+
+        <!-- Декоративный элемент справа -->
+        <div class="exhibits-section__pattern-right">
+            <img src="For_site/Pattern.png">
+        </div>
+
+        <!-- Заголовок -->
+        <h2 class="exhibits-section__title">ЭКСПОНАТЫ</h2>
+
+        <!-- Текстовое описание -->
+        <div class="exhibits-section__content">
+            <div class="exhibits-section__text-block">
+                <p class="exhibits-section__text">
+                    Главным экспонатом является <strong>Б-396 «Новосибирский комсомолец»</strong> — советская и российская дизель-электрическая подводная лодка проекта 641Б «Сом», с 1980 по 1998 год служившая на Северном флоте. С 26 июля 2006 года установлена в музее ВМФ в парке «Северное Тушино» на берегу Химкинского водохранилища в Москве.
+                </p>
+                <p class="exhibits-section__text">
+                    Внутри музея находится на двух этажах можно ознакомиться с историей развития советского и российского подводного флота и флота эсминцев, военно-морской формой и знаками отличия у моряков. Также там есть зал посвященный упоминаниям военно-морского флота в искусстве и зал работы военных водолазов.
+                </p>
+            </div>
+        </div>
+
+        <!-- Галерея экспонатов -->
+        <div class="exhibits-section__grid">
+            
+            <!-- Карточка 1 -->
+            <div class="exhibit-card">
+                <div class="exhibit-card__image-wrapper">
+                    <img src="For_site/Rectangle 7.png" alt="Основная выставка" class="exhibit-card__image">
+                </div>
+                <div class="exhibit-card__caption">
+                    <span class="exhibit-card__title">ОСНОВНАЯ ВЫСТАВКА<br>«ВЕЛИЧИЕ И ГЛУБИНА»</span>
+                </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="exhibit-card">
+                <div class="exhibit-card__image-wrapper">
+                    <img src="For_site/Rectangle 12.png" alt="Подводная лодка" class="exhibit-card__image">
+                </div>
+                <div class="exhibit-card__caption">
+                    <span class="exhibit-card__title">ПОДВОДНАЯ ЛОДКА<br>«НОВОСИБИРСКИЙ<br>КОМСОМОЛЕЦ»</span>
+                </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="exhibit-card">
+                <div class="exhibit-card__image-wrapper">
+                    <img src="For_site/Rectangle 13.png" alt="Экраноплан Орленок" class="exhibit-card__image">
+                </div>
+                <div class="exhibit-card__caption">
+                    <span class="exhibit-card__title">ЭКРАНОПЛАН «ОРЛЕНОК»</span>
+                </div>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class="exhibit-card">
+                <div class="exhibit-card__image-wrapper">
+                    <img src="For_site/Rectangle 13 (1).png" alt="Катер на воздушной подушке" class="exhibit-card__image">
+                </div>
+                <div class="exhibit-card__caption">
+                    <span class="exhibit-card__title">КАТЕР НА ВОЗДУШНОЙ<br>ПОДУШКЕ «СКАТ»</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="gallery">
+
+    <!-- Блок заголовок Галлереи -->
+    <div class="gallery">
+        <div class="gallery__container2">
+
+            <!-- Декоративный элемент - ленточки -->
+            <span><img class="gallery__container-ribbons1" src="For_site/Rectangle 55 (1).png"></span>
+            <span><img class="gallery__container-ribbons2" src="For_site/Rectangle 54 (1).png"></span>
+            <span><img class="gallery__container-ribbons1" src="For_site/Rectangle 55 (1).png"></span>
+            <h2 class="gallery__container2-title">ГАЛЕРЕЯ</h2>
+        </div>
+    </div>
+</section>
+<!-- 3D ГАЛЕРЕЯ -->
+<section class="gallery-3d-section">
+        <div class="gallery-3d__container">
+
+            <!-- Заголовок -->
+            <div class="gallery-3d__header">
+                <h2>⚓ 3D-ГАЛЕРЕЯ | ПОДВОДНАЯ ЛОДКА ⚓</h2>
+                <p style="margin-top: 10px; color: #ccddff;">Вращайте сцену мышью, рассматривайте модель в деталях</p>
+            </div>
+            <div class="gallery-3d__canvas-wrapper">
+                <canvas id="threeCanvas"></canvas>
+            </div>
+        </div>
+    </section>
+<section class="contacts-section" id="contacts">
+    <div class="contacts-section__container">
+        
+        <!-- Заголовок -->
+        <h2 class="contacts-section__title">КОНТАКТЫ</h2>
+
+        <!-- Блок с картой -->
+        <div class="contacts-section__map-wrapper">
+            
+            <div class="contacts-section__map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890abcdef" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- Информационная панель поверх карты -->
+            <div class="contacts-section__info-panel">
+                <div class="contacts-section__panel-content">
+                    <h3 class="contacts-section__panel-title">ПАРК «СЕВЕРНОЕ ТУШИНО»</h3>
+                    
+                    <div class="contacts-section__phone-group">
+                        <a href="tel:+74994930006" class="contacts-section__phone">+ 7(499) 493-00-06</a>
+                        <span class="contacts-section__phone-ext">доб. 220</span>
+                    </div>
+                    
+                    <div class="contacts-section__phone-group">
+                        <a href="tel:+79265221596" class="contacts-section__phone">+7 (926) 522-15-96</a>
+                    </div>
+
+                    <!-- Декоративная полоска -->
+                    <div class="contacts-section__panel-line"></div>
+                </div>
+            </div>
+
+            <!-- Кнопки зума карты (декоративные) -->
+            <div class="contacts-section__map-controls">
+                <button class="contacts-section__map-btn">+</button>
+                <button class="contacts-section__map-btn">−</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="main-footer__container">
+        
+        <!-- Левая колонка: Логотип и адрес -->
+        <div class="main-footer__column main-footer__column--info">
+            <div class="main-footer__logo-wrapper">
+                <img src="For_site/Logo_depart.png" alt="Департамент культуры Москвы" class="main-footer__logo">
+                <div class="main-footer__logo-text">
+                    Департамент<br>культуры<br>города Москвы
+                </div>
+            </div>
+            
+            <div class="main-footer__address">
+                <p>ГАУК г. Москвы<br>«МПК «Северное Тушино»</p>
+                <p>Адрес: 125364, г. Москва,<br>ул. Свободы, 52</p>
+                <p>Тел.: +7(499)493-00-06</p>
+                <p>E-mail: mpksevertushino@culture.mos.ru</p>
+            </div>
+        </div>
+
+        <!-- Средняя колонка: Меню -->
+        <div class="main-footer__column main-footer__column--menu">
+            <h4 class="main-footer__menu-title">О парках</h4>
+            <div class="main-footer__menu-grid">
+                <ul class="main-footer__menu-list">
+                    <li><a href="#" class="main-footer__link">Руководство</a></li>
+                    <li><a href="#" class="main-footer__link">Документы</a></li>
+                    <li><a href="#" class="main-footer__link">Контакты</a></li>
+                    <li><a href="#" class="main-footer__link">Вакансии</a></li>
+                    <li><a href="#" class="main-footer__link">Независимая оценка</a></li>
+                    <li><a href="#" class="main-footer__link">Тендеры</a></li>
+                </ul>
+                <ul class="main-footer__menu-list">
+                    <li><a href="#" class="main-footer__link">Чем заняться</a></li>
+                    <li><a href="#" class="main-footer__link">Места</a></li>
+                    <li><a href="#" class="main-footer__link">Афиша</a></li>
+                    <li><a href="#" class="main-footer__link">Новости</a></li>
+                    <li><a href="#" class="main-footer__link">Карта</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Правая колонка: Кнопки и соцсети -->
+        <div class="main-footer__column main-footer__column--actions">
+            <div class="main-footer__buttons">
+                <button class="main-footer__btn">В начало</button>
+                <button class="main-footer__btn">Задать вопрос</button>
+            </div>
+            
+            <div class="main-footer__socials">
+                <a href="#" class="main-footer__social-icon"><i class="fab fa-telegram"></i></a>
+                <a href="#" class="main-footer__social-icon"><i class="fab fa-vk"></i></a>
+                <a href="#" class="main-footer__social-icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+    </div>
+
+    <script src="JS/code.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.128.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.128.0/examples/jsm/"
+        }
+    }
+</script>
+
+<script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+    import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+    import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
+
+    // --- Настройка сцены ---
+    const canvas = document.getElementById('threeCanvas');
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x020c1a);
+    scene.fog = new THREE.FogExp2(0x020c1a, 0.008);
+
+    const camera = new THREE.PerspectiveCamera(45, canvas.clientWidth / canvas.clientHeight, 0.1, 1000);
+    camera.position.set(12, 6, 14);
+    camera.lookAt(0, 0, 0);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+    controls.autoRotate = false;
+    controls.target.set(0, 0.5, 0);
+    controls.enableZoom = true;
+
+    const labelRenderer = new CSS2DRenderer();
+    labelRenderer.setSize(canvas.clientWidth, canvas.clientHeight);
+    labelRenderer.domElement.style.position = 'absolute';
+    labelRenderer.domElement.style.top = '0px';
+    labelRenderer.domElement.style.left = '0px';
+    labelRenderer.domElement.style.pointerEvents = 'none';
+    document.querySelector('.gallery-3d__canvas-wrapper').appendChild(labelRenderer.domElement);
+
+    // Освещение
+    const ambientLight = new THREE.AmbientLight(0x1a2a3a, 0.65);
+    scene.add(ambientLight);
+    const mainLight = new THREE.DirectionalLight(0xffffff, 1.2);
+    mainLight.position.set(5, 12, 4);
+    mainLight.castShadow = true;
+    scene.add(mainLight);
+    const fillLight = new THREE.PointLight(0x2266aa, 0.5);
+    fillLight.position.set(-3, 2, -5);
+    scene.add(fillLight);
+    const warmFill = new THREE.PointLight(0xffaa66, 0.4);
+    warmFill.position.set(4, 1, 3);
+    scene.add(warmFill);
+    const movingLight = new THREE.PointLight(0x4488ff, 0.7);
+    movingLight.distance = 12;
+    scene.add(movingLight);
+
+    // Частицы
+    const particleCount = 1000;
+    const particlesGeo = new THREE.BufferGeometry();
+    const positions = new Float32Array(particleCount * 3);
+    for (let i = 0; i < particleCount; i++) {
+        positions[i*3] = (Math.random() - 0.5) * 40;
+        positions[i*3+1] = (Math.random() - 0.5) * 10;
+        positions[i*3+2] = (Math.random() - 0.5) * 30;
+    }
+    particlesGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    const particlesMat = new THREE.PointsMaterial({ color: 0x88bbff, size: 0.07, transparent: true, blending: THREE.AdditiveBlending });
+    const particleSystem = new THREE.Points(particlesGeo, particlesMat);
+    scene.add(particleSystem);
+
+    // Дно
+    const groundPlane = new THREE.Mesh(
+        new THREE.PlaneGeometry(18, 18),
+        new THREE.MeshStandardMaterial({ color: 0x0a1a2e, roughness: 0.8, transparent: true, opacity: 0.2 })
+    );
+    groundPlane.rotation.x = -Math.PI / 2;
+    groundPlane.position.y = -1.8;
+    groundPlane.receiveShadow = true;
+    scene.add(groundPlane);
+
+    // Фотогалерея (6 штук)
+    function createPhotoTexture(title, bgColor) {
+        const canvas = document.createElement('canvas');
+        canvas.width = 512;
+        canvas.height = 512;
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = bgColor || '#1a2a3c';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.strokeStyle = '#4c9eff';
+        ctx.lineWidth = 16;
+        ctx.strokeRect(20, 20, canvas.width-40, canvas.height-40);
+        ctx.font = `0px "Montserrat"`;
+        ctx.fillStyle = '#ffffff';
+        ctx.fillText(title, 60, 130);
+        ctx.font = `Bold 42px "Montserrat`;
+        ctx.fillStyle = '#ccddff';
+
+        const lines = title.split('\n');
+        const startY = 130 - (lines.length - 1) * 25;
+        lines.forEach((line, index) => {
+            ctx.fillText(line, 60, startY + index * 55);
+        });
+
+        ctx.font = `Bold 42px "Montserrat`;
+        ctx.fillStyle = '#ccddff';
+        ctx.fillText("АРХИВ", 160, 460);
+        const texture = new THREE.CanvasTexture(canvas);
+        return texture;
+    }
+    const photoItems = [
+        { title: "ГЛУБИНА \nПОГРУЖЕНИЯ", bg: "#1f3a4b", desc: "600 метров" },
+        { title: "ТОРПЕДНЫЙ \nАППАРАТ", bg: "#2a3a32", desc: "Калибр 533 мм" },
+        { title: "ДЛИНА ЛОДКИ", bg: "#1f2e3c", desc: "106 метров" },
+        { title: "ЭНЕРГЕТИЧЕСКАЯ \nУСТАНОВКА", bg: "#2c3e2f", desc: "2 реактора" },
+        { title: "АКУСТИЧЕСКИЙ \nКОМПЛЕКС", bg: "#1e2c42", desc: "1 гидролокатор" },
+        { title: "БОЕВАЯ СМЕНА", bg: "#1f3145", desc: "96 человек" }
+    ];
+    const radius = 6.4;
+    const anglesDeg = [0, 60, 120, 180, 240, 300];
+    const yOffsets = [0.2, -0.3, 0.6, -0.1, 0.9, 0.0];
+    const galleryPlanes = [];
+    photoItems.forEach((data, idx) => {
+        const texture = createPhotoTexture(data.title, data.bg);
+        const material = new THREE.MeshStandardMaterial({ map: texture, side: THREE.DoubleSide, roughness: 0.2 });
+        const plane = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 2.2), material);
+        const angle = (anglesDeg[idx] * Math.PI) / 180;
+        const x = Math.cos(angle) * radius;
+        const z = Math.sin(angle) * radius;
+        plane.position.set(x, yOffsets[idx] + 0.2, z);
+        plane.castShadow = true;
+        scene.add(plane);
+        const div = document.createElement('div');
+        div.textContent = data.desc;
+        div.style.cssText = 'background:rgba(0,0,0,0.6); padding:4px 12px; border-radius:20px; color:#bbddff; font-size:12px; border:1px solid #3c8eff;';
+        const label = new CSS2DObject(div);
+        label.position.set(x, yOffsets[idx] - 1.1, z);
+        scene.add(label);
+        galleryPlanes.push(plane);
+    });
+    
+    // Кольцо-подиум
+    const ringPoints = [];
+    for (let i = 0; i <= 120; i++) {
+        const a = (i / 120) * Math.PI * 2;
+        ringPoints.push(new THREE.Vector3(Math.cos(a) * 6.6, -0.85, Math.sin(a) * 6.6));
+    }
+    const ringGeo = new THREE.BufferGeometry().setFromPoints(ringPoints);
+    const ringMat = new THREE.LineBasicMaterial({ color: 0x3a7bbf });
+    const ringLoop = new THREE.LineLoop(ringGeo, ringMat);
+    scene.add(ringLoop);
+
+    // Запасная процедурная модель
+    const fallbackSubmarine = new THREE.Group();
+    (function buildFallback() {
+        const hullGeo = new THREE.CylinderGeometry(0.9, 0.9, 3.8, 32);
+        const hullMat = new THREE.MeshStandardMaterial({ color: 0x4a6572, metalness: 0.8 });
+        const hull = new THREE.Mesh(hullGeo, hullMat);
+        hull.rotation.z = Math.PI/2;
+        fallbackSubmarine.add(hull);
+        const nose = new THREE.Mesh(new THREE.ConeGeometry(0.85, 1.4, 24), new THREE.MeshStandardMaterial({ color: 0x3c5768 }));
+        nose.position.set(2.0, 0, 0);
+        fallbackSubmarine.add(nose);
+        const sail = new THREE.Mesh(new THREE.BoxGeometry(0.9, 0.95, 1.3), new THREE.MeshStandardMaterial({ color: 0x556f7c }));
+        sail.position.set(0.2, 0.7, 0);
+        fallbackSubmarine.add(sail);
+        const propeller = new THREE.Mesh(new THREE.CylinderGeometry(0.45,0.45,0.12,6), new THREE.MeshStandardMaterial({ color: 0xbbaa88 }));
+        propeller.position.set(-2.55, 0.05, 0);
+        propeller.rotation.x = Math.PI/2;
+        fallbackSubmarine.add(propeller);
+        fallbackSubmarine.userData = { propeller };
+    })();
+    fallbackSubmarine.position.y = -0.2;
+    
+    let currentModel = fallbackSubmarine;
+    let isFbxModel = false;
+    scene.add(currentModel);
+    
+    // Тихая загрузка FBX
+    const fbxLoader = new FBXLoader();
+    fbxLoader.load('submarine.fbx', (fbxObject) => {
+        scene.remove(currentModel);
+        fbxObject.traverse(child => { if (child.isMesh) { child.castShadow = true; child.receiveShadow = true; } });
+        const box = new THREE.Box3().setFromObject(fbxObject);
+        const minY = box.min.y;
+        fbxObject.position.y -= minY;
+        fbxObject.position.y -= 0.2;
+        fbxObject.position.x = 0;
+        fbxObject.position.z = 5;
+        const size = box.getSize(new THREE.Vector3());
+        const maxDim = Math.max(size.x, size.y, size.z);
+        const scale = 10.2 / maxDim;
+        fbxObject.scale.set(scale, scale, scale);
+        scene.add(fbxObject);
+        currentModel = fbxObject;
+        isFbxModel = true;
+    }, undefined, (error) => { console.warn('FBX not loaded, using fallback'); });
+    
+    // Анимация
+    let time = 0;
+    function animateParticles() {
+        const positionsAttr = particlesGeo.attributes.position.array;
+        for (let i = 0; i < particleCount; i++) {
+            positionsAttr[i*3+1] += 0.002;
+            if (positionsAttr[i*3+1] > 4) positionsAttr[i*3+1] = -3;
+        }
+        particlesGeo.attributes.position.needsUpdate = true;
+    }
+    
+    function animate() {
+        requestAnimationFrame(animate);
+        time += 0.012;
+        if (currentModel) {
+            currentModel.position.y += (Math.sin(time * 0.8) * 0.025 - (currentModel.position.y - (isFbxModel ? 0 : -0.2))) * 0.05;
+            currentModel.rotation.z = Math.sin(time * 0.5) * 0.02;
+            currentModel.rotation.x = Math.sin(time * 0.7) * 0.01;
+            if (!isFbxModel && currentModel.userData?.propeller) {
+                currentModel.userData.propeller.rotation.z += 0.04;
+            }
+        }
+        galleryPlanes.forEach(plane => plane.lookAt(camera.position));
+        animateParticles();
+        movingLight.position.x = Math.sin(time * 0.6) * 5;
+        movingLight.position.z = Math.cos(time * 0.9) * 5.5;
+        movingLight.intensity = 0.7 + Math.sin(time) * 0.2;
+        controls.update();
+        const container = document.querySelector('.gallery-3d__canvas-wrapper');
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+        if (renderer.domElement.width !== width || renderer.domElement.height !== height) {
+            renderer.setSize(width, height);
+            labelRenderer.setSize(width, height);
+            camera.aspect = width / height;
+            camera.updateProjectionMatrix();
+        }
+        renderer.render(scene, camera);
+        labelRenderer.render(scene, camera);
+    }
+    animate();
+    window.addEventListener('resize', () => {
+        const container = document.querySelector('.gallery-3d__canvas-wrapper');
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+        renderer.setSize(width, height);
+        labelRenderer.setSize(width, height);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+    });
+</script>
+</body>
+</html>
