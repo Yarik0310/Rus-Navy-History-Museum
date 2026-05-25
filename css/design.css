@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bebas Neue Bold (жирное начертание) */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Bold.ttf') format('truetype');
+    font-weight: 400;  /* Bebas Neue имеет только одно начертание — Bold */
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* Базовые сбросы */
 * {
     box-sizing: border-box;
@@ -6,7 +24,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     background-color: #f4f4f4;
 }
 
@@ -17,7 +35,7 @@ body {
 
 /* --- HEADER --- */
 .main-header {
-    background-color: #6CBCFF; /* Цвет верхней полосы */
+    background-color: #4E83B0; /* Цвет верхней полосы */
     padding: 15px 0;
 }
 
@@ -72,6 +90,10 @@ body {
     align-items: center;
     font-size: 20px;
     cursor: pointer;
+}
+.eye_button {
+    color: #000;
+    max-width: 75%;
 }
 
 /* --- HERO BLOCK --- */
@@ -169,6 +191,7 @@ body {
     font-weight: 800;
     font-size: 42px;
     line-height: 1.2;
+    font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -181,7 +204,7 @@ body {
 .gallery {
     background-color: #1A2F40; /* Синий фон */
     width: 100%;
-    padding: 48px 32px;
+    padding: 20px 32px;
 }
 
 /* БЛОК: gallery__container (flex-контейнер для картинок) */
@@ -227,7 +250,7 @@ body {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .about-section__description {
@@ -277,7 +300,7 @@ body {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 .about-section__schedule-grid {
@@ -300,7 +323,7 @@ body {
 .about-section__time-value {
     font-size: 32px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* Колонка таблицы */
@@ -400,7 +423,7 @@ body {
     text-align: left;
 }
 .exhibits-section {
-    padding: 0px 0 10px;
+    padding: 0px 0 40px;
     position: relative;
     background-color: #fff;
     overflow: hidden; /* Для декоративных элементов */
@@ -417,7 +440,7 @@ body {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     position: relative;
     z-index: 1;
 }
@@ -508,7 +531,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: #000;
     line-height: 1.3;
 }
@@ -528,7 +551,7 @@ body {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin-left: 45px;
 }
 
@@ -572,8 +595,8 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px; 
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .contacts-section__phone-group {
@@ -584,8 +607,8 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 22px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
     display: inline-block;
 }
 
@@ -594,6 +617,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-left: 5px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .contacts-section__panel-line {
@@ -629,6 +653,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 /* --- FOOTER --- */
@@ -704,8 +729,8 @@ body {
 .main-footer__menu-title {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px; 
+    font-family: 'Manrope', sans-serif;
 }
 
 .main-footer__menu-grid {
@@ -792,9 +817,9 @@ body {
 .gallery__container2-title {
     font-size: 48px;
     font-weight: 800;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     margin-bottom: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin-left: 45px;
     color: #ffffff;
 }
@@ -1211,6 +1236,7 @@ img {
 @media (max-width: 1023px) {
     .gallery {
         display: none !important;
+            padding: 20px 32px;
     }
 
     .main-header__contacts {
